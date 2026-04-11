@@ -1,0 +1,25 @@
+
+import java.awt.*;
+
+import java.applet.*;
+
+public class new1 extends Applet {
+
+   String msg = "welcome to Applet";
+   public void init()
+   {
+     setBackground(Coler.Black);
+     setForeground (Color.yellow);
+   }
+
+   public void start()
+    {
+       msg  = msg+"SAWAN";
+    }
+    public void stop()
+    {
+      public void paint(Graphics g){
+        g.drawString("msg",50,30);
+    }
+    
+}
